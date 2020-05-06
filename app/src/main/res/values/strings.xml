@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">CoronaVWatcher</string>
+    <string name="app_name">Corona V Watcher</string>
+    <string name="global_status">Global Status</string>
+    <string name="total_confirmed">Total Confirmed:</string>
+    <string name="total_deaths">Total Deaths:</string>
+    <string name="total_recovered">Total Recovered:</string>
+    <string name="new_prefrix">+%1$s</string>
 </resources>

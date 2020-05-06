@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(LocalInfoFragment(), "MindOrks")
-        adapter.addFragment(GlobalInfoFragment(), "GetMeAnApp")
-        adapter.addFragment(VirusInfoFragment(), "BestContentApp")
+        adapter.addFragment(LocalInfoFragment(), "Local")
+        adapter.addFragment(GlobalInfoFragment(), "Global")
+        adapter.addFragment(VirusInfoFragment(), "News")
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
     }
