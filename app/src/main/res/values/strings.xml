@@ -5,4 +5,5 @@
     <string name="total_deaths">Total Deaths:</string>
     <string name="total_recovered">Total Recovered:</string>
     <string name="new_prefrix">+%1$s</string>
+    <string name="stats_distribution">Statistics</string>
 </resources>
